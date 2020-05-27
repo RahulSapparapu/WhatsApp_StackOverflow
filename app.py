@@ -120,8 +120,8 @@ def sms_reply():
 
 #---------------------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
-    app.run(debug=True)
-'''
+    #app.run(debug=True)
+
     #app.run()
     action_process = Process(target=app.run)
  
@@ -132,4 +132,4 @@ if __name__ == "__main__":
     # We terminate the process.
     action_process.terminate()
     print("Hey there! I timed out! You can do things after me!")
-'''
+
